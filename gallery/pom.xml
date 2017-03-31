@@ -81,7 +81,7 @@
         </dependency>
 
         <dependency>
-            <groupId>io.rest</groupId>
+            <groupId>io.rest-assured</groupId>
             <artifactId>spring-mock-mvc</artifactId>
             <version>${spring-mock-mvc.version}</version>
             <scope>test</scope>
@@ -128,8 +128,6 @@
                         <location>filesystem:${project.basedir}/src/main/sql/migration</location>
                         <location>db/migration</location>
                     </locations>
-
-                    <initVersion>1.0</initVersion>
                 </configuration>
 
                 <dependencies>
